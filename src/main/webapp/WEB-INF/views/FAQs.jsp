@@ -1,0 +1,24 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TrekTrails|FAQs</title>
+<link href='<c:url value="/resources/Images/weblogo.png"/>' rel="icon"/>
+        <jsp:include page="common/Mylinks.jsp"></jsp:include>
+</head>
+<body>
+<div class="container-fluid">
+        <jsp:include page="common/general_header.jsp"></jsp:include>
+        <div class="row main" style=" min-height:600px;background-color:Blue">
+        <h1 >This is FAQs </h1>
+        </div>
+        <jsp:include page="common/general_footer.jsp"></jsp:include>
+        
+        
+        </div>
+
+</body>
+</html>
